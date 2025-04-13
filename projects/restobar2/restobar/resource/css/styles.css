@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: #ffffff;
+  color: #555;
+  font-family: "Merriweather";
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+header{
+  min-height: 100vh;
+  background-image:url(../img/bgtop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo{
+  margin-top: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.navcon{
+  background-color: transparent;
+}
+
+.navitem{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 95%;
+  transition: 1s;
+}
+
+.navitem:hover{
+  border-bottom: 2px solid #e67e33;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #e67e33;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-text{
+  font-family:"Merriweather";
+  background-color: transparent;
+  color: #FFFF;
+}
+
+.headermain{
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: -80px;
+  color: #e67e33;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.headertxt{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin-top: 10px;
+  color: #bebebe;
+}
+
+
+
+
+@media(max-wdith: 820px){
+  .navcon{
+    background-color: #ff0000;
+  }
+}
+
+
+.section1{
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(220, 220, 220, 0.69),rgba(220, 220, 220, 0.69)),url(../img/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cardcon{
+  background-color: #ffffff;
+  min-height: 500px;
+  padding:25px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 17px 22px 20px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 22px 20px -11px rgba(0,0,0,0.75);
+box-shadow: 17px 22px 20px -11px rgba(0,0,0,0.75);
+}
+
+.cardcon h3{
+  text-align: center;
+  font-size: 120%;
+  color: #e67e33;
+  text-transform: uppercase;
+  font-family: "Merriweather";
+  font-weight: bolder;
+}
+
+.cardcon h4{
+  text-align: center;
+  color: #e67e33;
+  text-transform: uppercase;
+  font-family: "Merriweather";
+  font-weight: bolder;
+  font-size: 100%;
+  margin-top: 10px;
+}
+
+.cardcon img{
+  border-radius: 10px;
+  box-shadow: 8px 10px 11px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 10px 11px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 10px 11px -8px rgba(0,0,0,0.75);
+}
+
+.btn-card:link,
+.btn-card:visited{
+  color: #e67e33;
+  transition: 0.5s;
+  text-decoration: none;
+  border: 1px solid #e67e33;
+  border-radius: 30px;
+  padding: 3px;
+  margin-left: 33%;
+}
+
+.btn-card:hover,
+.btn-card:active{
+  background-color: #e67e33;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.section2{
+  min-height: 90vh;
+  background-color: #eeeeee;
+}
+
+.ourteam{
+  padding-top: 70px;
+  text-align: center;
+  font-size: 250%;
+  color: #e67e33;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: "Merriweather";
+  font-weight: bolder;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+
+.OTC-name{
+  font-size: 120%;
+}
+
+.OTC-p{
+  font-size: 90%;
+}
+
+
+footer{
+  height: 10vh;
+  background-color: #1c1c1c;
+}
+
+.ft{
+  color: #ffffff;
+  font-size: 70%;
+}
